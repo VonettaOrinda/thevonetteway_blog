@@ -1,4 +1,4 @@
-import requests,json
+import requests,_json
 
 def get_quotes():
     response = requests.get('http://quotes.stormconsultancy.co.uk/random.json')

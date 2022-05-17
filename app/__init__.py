@@ -1,5 +1,5 @@
 from flask import Flask
-import sqlalchemy
+# import sqlalchemy
 from config import config_options
 from flask_login import LoginManager
 from flask_bootstrap import Bootstrap
