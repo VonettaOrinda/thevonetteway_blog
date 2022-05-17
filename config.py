@@ -10,7 +10,7 @@ class Config:
     MAIL_USE_TLS = True
     MAIL_USERNAME = os.environ.get("MAIL_USERNAME")
     MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
-    SUBJECT_PREFIX = 'Pitch-Perfect'
+    SUBJECT_PREFIX = 'The Vonette Way Blog'
     SENDER_EMAIL = 'vonetta.orinda@student.moringaschool.com'
     # simple mde  configurations
     SIMPLEMDE_JS_IIFE = True
@@ -30,14 +30,14 @@ class ProdConfig(Config):
         uri = uri.replace('postgres://', 'postgresql://', 1)
         SQLALCHEMY_DATABASE_URI=uri
 class TestConfig(Config):
-   SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://vonetta:vonetta@localhost/pitchp'
+   SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://vonetta:vonetta@localhost/blog'
 class DevConfig(Config):
     '''
     Development  configuration child class
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://vonetta:vonetta@localhost/pitchp'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://vonetta:vonetta@localhost/blog'
     DEBUG = True
 config_options = {
 'development':DevConfig,
