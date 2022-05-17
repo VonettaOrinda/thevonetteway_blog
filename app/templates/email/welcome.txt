@@ -1,0 +1,2 @@
+Hello {{user.username}}, Welcome to The Vonette Way Family.
+We are happy that you have joined us and you shall be receiving our newsletter regularly and a notification everytime there is a new blog post.

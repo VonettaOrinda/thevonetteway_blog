@@ -1,0 +1,10 @@
+Hello subscriber!
+
+A new blog was been posted
+
+Title: {{blog.title}}
+Post: {{blog.content|truncate(30)}}
+
+Regards,
+
+Von from The Vonette Way
