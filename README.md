@@ -27,7 +27,7 @@ This  is a flask application that allows writers to post blogs, edit and delite 
 | Select Login | **Username** and **password** | Redirect to page with blogs that have been posted by writes and be able to subscribe to the blog|
 | Select comment button | **Comment** | Form that you input your comment|
 | Click on submit |  | Redirect to all comments tamplate with your comment and other comments|
-|Subscription | **Email Address**| Flash message "Succesfully subsbribed to D-Blog"|
+|Subscription | **Email Address**| Flash message "Succesfully subsbribed to The vonette way Blog"|
 
 
 
@@ -57,7 +57,7 @@ To get the code..
   ```bash
   python manage.py test
   ```
-Open the application on your browser `127.0.0.1:5000`.
+
 
 
 ## Technology used
